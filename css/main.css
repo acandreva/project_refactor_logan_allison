@@ -121,53 +121,6 @@ h1 a {
 }
 */
 
-/* Splash */
-
-#splash {
-    width: 960px;
-    height: 300px;
-    margin: 0px auto;
-}
-
-/* Search */
-
-#search {
-    float: right;
-    width: 280px;
-    height: 60px;
-    padding: 20px 0px 0px 0px;
-}
-
-#search form {
-    height: 41px;
-    margin: 0;
-    padding: 10px 0 0 20px;
-}
-
-#search fieldset {
-    margin: 0;
-    padding: 0;
-    border: none;
-}
-
-#search-text {
-    width: 170px;
-    padding: 6px 5px 2px 5px;
-    border: 1px solid #E7EBED;
-    background: #FFFFFF;
-    text-transform: lowercase;
-    font: normal 11px Arial, Helvetica, sans-serif;
-    color: #5D781D;
-}
-
-#search-submit {
-    width: 50px;
-    height: 22px;
-    border: none;
-    background: #B9B9B9;
-    color: #000000;
-}
-
 /* Navigation */
 
 nav {
@@ -216,6 +169,66 @@ nav a:hover, nav .current_page_item a {
 nav .current_page_item a {
 }
 */
+
+/* Banner */
+
+#banner {
+    margin: 0px auto;
+    width: 1000px;
+    height: 340px;
+    background: url(../img/img03.png) no-repeat left bottom;
+}
+/*
+#banner .content {
+}
+*/
+
+/* Splash */
+
+#splash {
+    width: 960px;
+    height: 300px;
+    margin: 0px auto;
+}
+
+/* Search */
+
+#search {
+    float: right;
+    width: 280px;
+    height: 60px;
+    padding: 20px 0px 0px 0px;
+}
+
+#search form {
+    height: 41px;
+    margin: 0;
+    padding: 10px 0 0 20px;
+}
+
+#search fieldset {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+#search-text {
+    width: 170px;
+    padding: 6px 5px 2px 5px;
+    border: 1px solid #E7EBED;
+    background: #FFFFFF;
+    text-transform: lowercase;
+    font: normal 11px Arial, Helvetica, sans-serif;
+    color: #5D781D;
+}
+
+#search-submit {
+    width: 50px;
+    height: 22px;
+    border: none;
+    background: #B9B9B9;
+    color: #000000;
+}
 
 /* Page */
 
@@ -512,17 +525,6 @@ nav .current_page_item a {
     font-size: 30px;
     color: #FFFFFF;
 }
-
-#banner {
-    margin: 0px auto;
-    width: 1000px;
-    height: 340px;
-    background: url(../img/img03.png) no-repeat left bottom;
-}
-
-#banner .content {
-}
-
 
 .list-style1 {
     margin: 0px;
