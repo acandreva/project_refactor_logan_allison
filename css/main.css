@@ -59,7 +59,7 @@ a:hover {
     overflow: hidden;
 }
 
-#header {
+header {
     width: 1000px;
     height: 150px;
     margin: 0 auto;
@@ -68,15 +68,25 @@ a:hover {
 
 /* Logo */
 
-#logo {
+h1 {
     float: left;
     width: 300px;
     margin: 0;
     padding: 0;
     color: #FFFFFF;
+    line-height: 120px;
+    letter-spacing: -2px;
+    font-size: 3.8em;
 }
 
-#logo h1, #logo p {
+h1 a {
+    border: none;
+    background: none;
+    text-decoration: none;
+    color: #000000;
+}
+
+/*#logo h1, #logo p {
 }
 
 #logo h1 {
@@ -109,6 +119,7 @@ a:hover {
     text-decoration: none;
     color: #000000;
 }
+*/
 
 /* Splash */
 
