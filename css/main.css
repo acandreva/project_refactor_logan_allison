@@ -285,7 +285,7 @@ article .meta {
     font-weight: 300;
 }
 
-article .meta .date {
+article .meta time {
     float: left;
 }
 
