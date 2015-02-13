@@ -251,17 +251,17 @@ article {
     margin-bottom: 40px;
     border-bottom: 1px solid #E7EBED;
 }
-/*
-.post .title {
+
+article .title {
     padding: 7px 0px 0px 0px;
     letter-spacing: -1px;
 }
 
-.post .title a {
+article .title a {
     border: none;
     text-decoration: none;
     color: #222222;
-}*/
+}
 
 article .meta {
     margin-bottom: 30px;
@@ -318,37 +318,37 @@ article .meta {
 
 /* Sidebar */
 
-#sidebar {
+aside {
     float: left;
     width: 270px;
     margin: 0px;
     padding: 30px 0px 0px 0px;
 }
 
-#sidebar ul {
+aside ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-#sidebar li {
+aside li {
     margin: 0;
     padding: 0;
 }
 
-#sidebar li ul {
+aside li ul {
     margin: 0px 0px;
     padding-bottom: 30px;
 }
 
-#sidebar li li {
+aside li li {
     line-height: 40px;
     border-bottom: 1px solid #E7EBED;
     margin: 0px 0px;
     border-left: none;
 }
 
-#sidebar li li span {
+aside li li span {
     display: block;
     margin-top: -20px;
     padding: 0;
@@ -356,12 +356,12 @@ article .meta {
     font-style: italic;
 }
 
-#sidebar li li a {
+aside li li a {
     padding: 0px 0px 0px 20px;
     background: url(../img/img04.jpg) no-repeat left 50%;
 }
 
-#sidebar h2 {
+aside h2 {
     height: 38px;
     padding: 0px 0px 30px 0px;
     letter-spacing: -.5px;
@@ -369,17 +369,17 @@ article .meta {
     color: #222222;
 }
 
-#sidebar p {
+aside p {
     margin: 0 0px;
     padding: 0px 30px 20px 30px;
     text-align: justify;
 }
 
-#sidebar a {
+aside a {
     border: none;
 }
 
-#sidebar a:hover {
+aside a:hover {
     text-decoration: underline;
 }
 
