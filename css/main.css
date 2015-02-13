@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background: #050505 url(../img/img01.jpg) repeat;
+    background: #FFFFFF url(../img/img05.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #5B5B5B;
@@ -55,9 +55,9 @@ a {
 a:hover {
 }
 
-#wrapper {
+/*#wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
-}
+}*/
 /*
 .container {
     width: 1000px;
@@ -316,7 +316,7 @@ article .entry {
     text-decoration: none;
 }
 
-.comments {
+/*.comments {
     display: block;
     float: left;
     width: 88px;
@@ -325,7 +325,7 @@ article .entry {
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
-}
+}*/
 
 /* Sidebar */
 
@@ -379,7 +379,7 @@ aside h2 {
     letter-spacing: -.5px;
     font-size: 1.8em;
     color: #222222;
-}*/
+}
 
 aside p {
     margin: 0 0px;
@@ -393,7 +393,7 @@ aside a {
 
 aside a:hover {
     text-decoration: underline;
-}
+}*/
 
 /* Calendar */
 /*
@@ -482,6 +482,7 @@ aside a:hover {
 /* Footer */
 
 footer {
+    background: #050505 url(../img/img01.jpg) repeat;
     height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
