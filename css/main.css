@@ -58,11 +58,11 @@ a:hover {
 #wrapper {
     background: #FFFFFF url(../img/img05.jpg) repeat;
 }
-
+/*
 .container {
     width: 1000px;
     margin: 0px auto;
-}
+}*/
 
 /* Header */
 
@@ -283,18 +283,18 @@ article .meta {
     font-weight: 300;
 }
 
-.article .meta .date {
+article .meta .date {
     float: left;
 }
 
-.article .meta .posted {
+article .meta .posted {
     float: right;
 }
 
-.article .meta a {
+article .meta a {
 }
 
-.article .entry {
+article .entry {
     padding: 0px 0px 40px 0px;
     text-align: justify;
 }
@@ -396,7 +396,7 @@ aside a:hover {
 }
 
 /* Calendar */
-
+/*
 #calendar {
 }
 
@@ -414,10 +414,10 @@ aside a:hover {
 
 #calendar #next {
     text-align: right;
-}
+}*/
 
 /* Three Column Footer Content */
-
+/*
 #footer-content {
     overflow: hidden;
     width: 1000px;
@@ -477,18 +477,18 @@ aside a:hover {
 #column3 {
     float: right;
     width: 260px;
-}
+}*/
 
 /* Footer */
 
-#footer {
+footer {
     height: 140px;
     margin: 0 auto;
     padding: 50px 0 15px 0;
     font-family: 'Abel', sans-serif;
 }
 
-#footer p {
+footer p {
     margin: 0;
     padding-top: 10px;
     letter-spacing: 1px;
@@ -499,7 +499,7 @@ aside a:hover {
     color: #5E5E5E;
 }
 
-#footer a {
+/*#footer a {
     color: #5E5E5E;
 }
 
@@ -546,4 +546,4 @@ aside a:hover {
 
 .list-style1 a {
     color: #7F7F7F;
-}
+}*/
