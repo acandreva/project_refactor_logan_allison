@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: #FFFFFF url(../img/img05.jpg) repeat;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
+    font-size: 10px;
     color: #5B5B5B;
 }
 
@@ -82,7 +82,7 @@ body {
 \*------------------------------------*/
 
     #banner {
-        display: none; 
+        display: none;
     }
 
 /*------------------------------------*\
@@ -100,6 +100,7 @@ body {
         margin: 0 auto;
         padding: 30px 0px;
         clear: both;
+        border-top: solid #222 10px;
     }
 
 
@@ -133,7 +134,7 @@ body {
         padding: 10px 0px 0px 0px;
         text-align: left;
         font-family: 'Abel', sans-serif;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 300;
     }
 
@@ -187,7 +188,6 @@ body {
 
     h3 {
         font-size: 1.8em;
-        height: 38px;
         padding-bottom: 10px;
         letter-spacing: -.5px;
     }
@@ -234,7 +234,7 @@ body {
 
     footer {
         background: #050505 url(../img/img01.jpg) repeat;
-        height: 140px;
+        height: 50px;
         margin: 0 auto;
         padding: 50px 0 15px 0;
         font-family: 'Abel', sans-serif;
@@ -246,7 +246,7 @@ body {
         padding-top: 10px;
         letter-spacing: 1px;
         line-height: normal;
-        font-size: 14px;
+        font-size: 10px;
         text-transform: uppercase;
         text-align: center;
         color: #5E5E5E;
@@ -254,13 +254,16 @@ body {
 
 
 
-
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*\
 /*------------------------------------*\
     #560PX OR LARGER SECTION
 \*------------------------------------*/
 
 @media screen and (min-width: 560px) {
 
+body {
+    font-size: 12px;
+}
 
 /*------------------------------------*\
     #HEADER SECTION
@@ -301,7 +304,44 @@ body {
         max-width: 80%;
     }
 
+
+/*------------------------------------*\
+    #MAIN SECTION
+\*------------------------------------*/
+
+    main {
+        border-top: none;
+    }
+
+
+/*------------------------------------*\
+    #SECTION OF THE MAIN ELEMENT
+\*------------------------------------*/
+
+
+    h2 {
+        font-size: 2.8em;
+    }
+
+    article .meta {
+        font-size: 13px;
+    }
+
+
+/*------------------------------------*\
+    #FOOTER SECTION
+\*------------------------------------*/
+
+    footer {
+        height: 140px;
+    }
+
+    footer p {
+        font-size: 12px;
+    }
+
 }
+
 
 
 /*------------------------------------*\
@@ -310,6 +350,10 @@ body {
 
 @media screen and (min-width: 800px) {
 
+
+body {
+    font-size: 14px;
+}
 
 /*------------------------------------*\
     #LOGO SECTION
@@ -393,8 +437,21 @@ body {
         display: block;
     }
 
-}
 
+/*------------------------------------*\
+    #FOOTER SECTION
+\*------------------------------------*/
+
+    footer {
+        height: 140px;
+    }
+
+    footer p {
+        font-size: 14px;
+    }
+
+
+}
 
 
 /*------------------------------------*\
