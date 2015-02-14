@@ -21,9 +21,10 @@ body {
         color: #222222;
     }
 
-@media screen and (min-width: 335px) {
 
-/* Header */
+/*------------------------------------*\
+    #HEADER SECTION
+\*------------------------------------*/
 
     nav {
         width: 100%;
@@ -31,13 +32,19 @@ body {
         padding: 0px 0px;
     }
 
-/* Logo */
+
+/*------------------------------------*\
+    #LOGO SECTION
+\*------------------------------------*/
 
     h1 {
         display: none;
     }
 
-/* Navigation */
+
+/*------------------------------------*\
+    #NAVIGATION SECTION
+\*------------------------------------*/
 
     nav ul {
         float: right;
@@ -75,40 +82,47 @@ body {
     }
 
 
-/* Banner */
+/*------------------------------------*\
+    #BANNER SECTION
+\*------------------------------------*/
 
     #banner {
         display: none; 
     }
 
+/*------------------------------------*\
+    #END HEADER SECTION
 
-/* Main */
+
+
+/*------------------------------------*\
+    #MAIN SECTION
+\*------------------------------------*/
 
     main {
         width: 80%;
         max-width: 1000px;
         margin: 0 auto;
         padding: 30px 0px;
+        clear: both;
     }
 
-/* section of Main */
+
+/*------------------------------------*\
+    #SECTION OF THE MAIN ELEMENT
+\*------------------------------------*/
 
     section {
-        float: right;
-        width: 70%;
-        max-width: 660px;
-        padding: 0px 0px 0px 0px;
-        margin-bottom: 47px;
+        width: 100%;
     }
 
     article {
-        overflow: hidden;
         margin-bottom: 40px;
         border-bottom: 1px solid #E7EBED;
     }
 
     h2 {
-        font-size: 2.8em;
+        font-size: 2.2em;
         padding: 7px 0px 0px 0px;
         letter-spacing: -1px;
     }
@@ -124,7 +138,7 @@ body {
         padding: 10px 0px 0px 0px;
         text-align: left;
         font-family: 'Abel', sans-serif;
-        font-size: 16px;
+        font-size: 15px;
         font-weight: 300;
     }
 
@@ -168,20 +182,18 @@ body {
     }
 
 
-/* Sidebar */
+/*------------------------------------*\
+    #SIDEBAR SECTION
+\*------------------------------------*/
 
     aside {
-        float: left;
-        width: 30%;
-        max-width: 270px;
-        margin: 0px;
-        padding: 30px 0px 0px 0px;
+        width: 100%;
     }
 
     h3 {
         font-size: 1.8em;
         height: 38px;
-        padding: 0px 0px 30px 0px;
+        padding-bottom: 10px;
         letter-spacing: -.5px;
     }
 
@@ -198,7 +210,7 @@ body {
     }
 
     aside li ul {
-        margin: 0px 0px;
+        margin: 0px;
         padding-bottom: 30px;
         line-height: 180%;
     }
@@ -206,25 +218,23 @@ body {
     aside li li {
         line-height: 40px;
         border-bottom: 1px solid #E7EBED;
-        margin: 0px 0px;
+        margin: 0px;
         border-left: none;
     }
 
-    aside li li span {
-        display: block;
-        margin-top: -20px;
-        padding: 0;
-        font-size: 11px;
-        font-style: italic;
-    }
-
     aside li li a {
-        padding: 0px 0px 0px 20px;
+        padding-left: 20px;
         background: url(../img/img04.jpg) no-repeat left 50%;
     }
 
+/*------------------------------------*\
+    #END MAIN SECTION
 
-/* Footer */
+
+
+/*------------------------------------*\
+    #FOOTER SECTION
+\*------------------------------------*/
 
     footer {
         background: #050505 url(../img/img01.jpg) repeat;
@@ -245,11 +255,20 @@ body {
         text-align: center;
         color: #5E5E5E;
     }
-}
+
+
+
+
+/*------------------------------------*\
+    #560PX OR LARGER SECTION
+\*------------------------------------*/
 
 @media screen and (min-width: 560px) {
 
-/*Header*/
+
+/*------------------------------------*\
+    #HEADER SECTION
+\*------------------------------------*/
 
     nav {
         width: 80%;
@@ -257,7 +276,10 @@ body {
         height: 150px;
     }
 
-/* Navigation */
+    
+/*------------------------------------*\
+    #NAVIGATION SECTION
+\*------------------------------------*/
 
     nav ul {
         padding: 20px 0px 0px 0px;
@@ -270,7 +292,9 @@ body {
     }
 
 
-/* Banner */
+/*------------------------------------*\
+    #BANNER SECTION
+\*------------------------------------*/
 
     #banner {
         margin: 0px auto;
@@ -287,9 +311,18 @@ body {
 }
 
 
+
+
+/*------------------------------------*\
+    #800PX OR LARGER SECTION
+\*------------------------------------*/
+
 @media screen and (min-width: 800px) {
 
-/* Header*/
+
+/*------------------------------------*\
+    #HEADER SECTION
+\*------------------------------------*/
 
     nav {
         width: 80%;
@@ -297,7 +330,10 @@ body {
         height: 150px;
     }
 
-/* Logo */
+
+/*------------------------------------*\
+    #LOGO SECTION
+\*------------------------------------*/
 
     h1 {
         display: block;
@@ -317,5 +353,45 @@ body {
         color: #000000;
     }
 
+
+/*------------------------------------*\
+    #SECTION OF THE MAIN ELEMENT
+\*------------------------------------*/
+
+    section {
+        float: right;
+        width: 70%;
+        max-width: 660px;
+        margin-bottom: 47px;
+    }
+
+    article {
+        overflow: hidden;
+    }
+
+    h2 {
+        font-size: 2.8em;
+    }
+
+    article .meta {
+        font-size: 16px;
+    }
+
+
+/*------------------------------------*\
+    #SIDEBAR SECTION
+\*------------------------------------*/
+
+    aside {
+        float: left;
+        width: 30%;
+        max-width: 270px;
+        margin: 0px;
+        padding-top: 30px;
+    }
+
+    h3 {
+        padding-bottom: 30px;
+    }
 
 }
