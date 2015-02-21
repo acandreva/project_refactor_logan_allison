@@ -33,7 +33,19 @@ body {
 \*------------------------------------*/
 
     h1 {
-        display: none;
+        display: block;
+        float: left;
+        color: #FFFFFF;
+        line-height: 120px;
+        letter-spacing: -2px;
+        font-size: 3.8em;
+    }
+
+    h1 a {
+        border: none;
+        background: none;
+        text-decoration: none;
+        color: #000000;
     }
 
 
@@ -356,26 +368,6 @@ body {
 body {
     font-size: 14px;
 }
-
-/*------------------------------------*\
-    #LOGO SECTION
-\*------------------------------------*/
-
-    h1 {
-        display: block;
-        float: left;
-        color: #FFFFFF;
-        line-height: 120px;
-        letter-spacing: -2px;
-        font-size: 3.8em;
-    }
-
-    h1 a {
-        border: none;
-        background: none;
-        text-decoration: none;
-        color: #000000;
-    }
 
 
 /*------------------------------------*\
